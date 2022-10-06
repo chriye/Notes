@@ -1,0 +1,93 @@
+* {
+    font-family: Montserrat;
+    margin: 10px;
+}
+@media all and (max-width: 600px){
+    body{
+        /* height: 100px;
+        width: 100px; */
+        background-color:rgb(86, 164, 190);
+    }
+}
+
+header {
+    background-color: #f0a400b2;
+    border-radius: 5px;
+    padding: 3px 0px;
+    color: white;
+}
+
+body {
+    background-color: #EEEEEE;
+}
+
+.note_box {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: 250px;
+    border-radius: 5%;
+    float: left;
+}
+
+.time{
+    position: absolute;
+    bottom: 0px;
+    /* height: 20px;
+    width: auto;
+    background-color: #EEEEEE; */
+    right: 0px;
+    color: #7F8487;
+}
+
+/* footer {
+    position: absolute;
+    align-content: center;
+    color: rgb(49, 46, 46);
+    bottom: 0px;
+} */
+
+footer h1 {
+    font-weight: 400;
+}
+
+.addIcon {
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    bottom: 0;
+    right: 50px;
+    color: #F0A500;
+}
+
+.addIcon:hover {
+    color: #f08800;
+}
+
+.addNotesBlock, .detailBox {
+    z-index: 3;
+    background-color: rgb(255, 255, 255);;
+    border-color: #F0A500;
+    border-radius: 10px;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    position: fixed;
+    top: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#darker {
+    z-index: 2;
+      position:fixed;
+      padding:0;
+      margin:0;
+      top:0;
+      left:0;
+      width: 100%;
+      height: 100%;
+      background:rgba(231, 229, 229, 0.568);
+}
